@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
+<html class="ios device-pixel-ratio-2 device-retina device-ios device-ios-11 device-ios-11-0 device-ios-gt-10 device-ios-gt-9 device-ios-gt-8 device-ios-gt-7 device-ios-gt-6 support-position-sticky"><head>
   <meta charset="utf-8">
   <!--
   Customize this policy to fit your own app's needs. For more guidance, see:
@@ -23,13 +21,13 @@
   <link rel="stylesheet" href="css/framework7.min.css">
   <link rel="stylesheet" href="icons.css">
   <link rel="stylesheet" href="app.css">
-</head>
+<script></script></head>
 <body>
-  <div id="app">
+  <div id="app" class="framework7-root">
     <!-- Status bar overlay for fullscreen mode-->
     <div class="statusbar"></div>
     <!-- Left panel with cover effect-->
-    <div class="panel panel-left panel-cover theme-dark">
+    <div class="panel-backdrop"></div><div class="panel panel-left panel-cover theme-dark">
       <div class="view">
         <div class="page">
           <div class="navbar">
@@ -60,27 +58,25 @@
     </div>
 
     <!-- Your main view, should have "view-main" class -->
-    <div class="view view-main ios-edges">
-      <!-- Page, data-name contains page name which can be used in callbacks -->
-      <div class="page" data-name="home">
-        <!-- Top Navbar -->
-        <div class="navbar">
-          <div class="navbar-inner">
+    <div class="view view-main ios-edges"><div class="navbar"><div class="navbar-inner">
             <div class="left">
               <a href="#" class="link icon-only panel-open" data-panel="left">
-                <i class="icon f7-icons ios-only">menu</i>
-                <i class="icon material-icons md-only">menu</i>
+                <i class="icon f7-icons ios-only"> </i>
+                
               </a>
             </div>
-            <div class="title sliding">My App</div>
+            <div class="title sliding" style="left: 0px;">My App</div>
             <div class="right">
               <a href="#" class="link icon-only panel-open" data-panel="right">
-                <i class="icon f7-icons ios-only">menu</i>
-                <i class="icon material-icons md-only">menu</i>
+                <i class="icon f7-icons ios-only"> </i>
+                
               </a>
             </div>
-          </div>
-        </div>
+          </div></div>
+      <!-- Page, data-name contains page name which can be used in callbacks -->
+      <div class="page page-current" data-name="home">
+        <!-- Top Navbar -->
+        
         <!-- Toolbar-->
         <div class="toolbar">
           <div class="toolbar-inner">
@@ -138,20 +134,20 @@
             </div>
           </div>
 
-          <div class="block-title searchbar-hide-on-search">Page Loaders & Router</div>
+          <div class="block-title searchbar-hide-on-search">Page Loaders &amp; Router</div>
           <div class="list links-list searchbar-hide-on-search">
             <ul>
               <li>
                 <a href="page-loader-template7.html">Template7 Page</a>
               </li>
               <li>
-                <a href="/page-loader-component/vladimir/123/about-me/1/?start=0&end=30#top">Component Page</a>
+                <a href="/page-loader-component/vladimir/123/about-me/1/?start=0&amp;end=30#top">Component Page</a>
               </li>
               <li>
                 <a href="/load-something-that-doesnt-exist/">Default Route (404)</a>
               </li>
               <li>
-                <a href="/request-and-load/user/123456/">Request Data & Load</a>
+                <a href="/request-and-load/user/123456/">Request Data &amp; Load</a>
               </li>
             </ul>
           </div>
@@ -232,5 +228,6 @@
 
   <!-- Your custom app scripts -->
   <script src="js/app.js"></script>
-</body>
-</html>
+
+
+</body></html>
